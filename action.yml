@@ -42,6 +42,9 @@ inputs:
   closed:
       description: 'Value of the status to put on the Notion Page when the PR action is `closed`'
       required: false
+  merged:
+      description: 'Value of the status to put on the Notion Page when the PR action is `merged`'
+      required: false
   reopened:
       description: 'Value of the status to put on the Notion Page when the PR action is `reopened`'
       required: false
