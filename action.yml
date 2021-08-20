@@ -9,7 +9,7 @@ inputs:
       description: 'Name of the property name that will receive the new status'
       required: false
       default: 'Status'
-  url-property-name:
+  github-url-property-name:
       description: 'Name of the property name that will receive the link of the PR'
       required: false
       default: 'Github Url'
