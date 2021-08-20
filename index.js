@@ -45,15 +45,16 @@ if (urlFound) {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${process.env.NOTION_BOT_SECRET_KEY}`,
+      "Notion-Version": "2021-05-13",
     },
     body: JSON.stringify({
       properties: {
         ...(status
           ? {
-              [statusProperty]: {
-                name: status,
-              },
-            }
+            [statusProperty]: {
+              name: status,
+            },
+          }
           : {}),
         [githubUrlProperty]: PRHref,
       },

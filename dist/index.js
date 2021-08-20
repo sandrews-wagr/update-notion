@@ -86,7 +86,7 @@
         //# sourceMappingURL=command.js.map
 
         /***/
-}),
+      }),
 
 /***/ 151:
 /***/ (function (__unused_webpack_module, exports, __nccwpck_require__) {
@@ -333,7 +333,7 @@
         //# sourceMappingURL=core.js.map
 
         /***/
-}),
+      }),
 
 /***/ 74:
 /***/ (function (__unused_webpack_module, exports, __nccwpck_require__) {
@@ -370,7 +370,7 @@
         //# sourceMappingURL=file-command.js.map
 
         /***/
-}),
+      }),
 
 /***/ 735:
 /***/ ((__unused_webpack_module, exports) => {
@@ -397,7 +397,7 @@
         //# sourceMappingURL=utils.js.map
 
         /***/
-}),
+      }),
 
 /***/ 513:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -455,7 +455,7 @@
         //# sourceMappingURL=context.js.map
 
         /***/
-}),
+      }),
 
 /***/ 860:
 /***/ (function (__unused_webpack_module, exports, __nccwpck_require__) {
@@ -499,7 +499,7 @@
         //# sourceMappingURL=github.js.map
 
         /***/
-}),
+      }),
 
 /***/ 879:
 /***/ (function (__unused_webpack_module, exports, __nccwpck_require__) {
@@ -550,7 +550,7 @@
         //# sourceMappingURL=utils.js.map
 
         /***/
-}),
+      }),
 
 /***/ 460:
 /***/ (function (__unused_webpack_module, exports, __nccwpck_require__) {
@@ -612,7 +612,7 @@
         //# sourceMappingURL=utils.js.map
 
         /***/
-}),
+      }),
 
 /***/ 967:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -995,7 +995,6 @@
             if (this.userAgent != null) {
               info.options.headers['user-agent'] = this.userAgent;
             }
-            info.options.headers['Notion-Version'] = "2021-05-13";
             info.options.agent = this._getAgent(info.parsedUrl);
             // gives handlers an opportunity to participate
             if (this.handlers) {
@@ -1159,7 +1158,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 788:
 /***/ ((__unused_webpack_module, exports) => {
@@ -1225,7 +1224,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 859:
 /***/ ((__unused_webpack_module, exports) => {
@@ -1283,7 +1282,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 706:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -1467,7 +1466,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 963:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -1866,7 +1865,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 178:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -1991,7 +1990,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 176:
 /***/ ((__unused_webpack_module, exports) => {
@@ -2144,7 +2143,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 145:
 /***/ ((__unused_webpack_module, exports) => {
@@ -3382,7 +3381,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 664:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -3446,7 +3445,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 681:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -3605,7 +3604,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 333:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
@@ -3670,7 +3669,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 555:
 /***/ ((module) => {
@@ -3724,7 +3723,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 408:
 /***/ ((module) => {
@@ -3759,7 +3758,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 369:
 /***/ ((module) => {
@@ -3786,7 +3785,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 520:
 /***/ ((__unused_webpack_module, exports) => {
@@ -3815,7 +3814,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 694:
 /***/ ((__unused_webpack_module, exports) => {
@@ -3862,7 +3861,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 771:
 /***/ ((module, exports, __nccwpck_require__) => {
@@ -5520,7 +5519,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 733:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
@@ -5570,7 +5569,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 991:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
@@ -5579,7 +5578,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 323:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
@@ -5852,7 +5851,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 212:
 /***/ ((__unused_webpack_module, exports) => {
@@ -5879,7 +5878,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 325:
 /***/ ((module) => {
@@ -5920,7 +5919,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 226:
 /***/ ((module) => {
@@ -5929,7 +5928,7 @@
 
 
         /***/
-}),
+      }),
 
 /***/ 357:
 /***/ ((module) => {
@@ -5938,7 +5937,7 @@
         module.exports = require("assert");;
 
         /***/
-}),
+      }),
 
 /***/ 614:
 /***/ ((module) => {
@@ -5947,7 +5946,7 @@
         module.exports = require("events");;
 
         /***/
-}),
+      }),
 
 /***/ 747:
 /***/ ((module) => {
@@ -5956,7 +5955,7 @@
         module.exports = require("fs");;
 
         /***/
-}),
+      }),
 
 /***/ 605:
 /***/ ((module) => {
@@ -5965,7 +5964,7 @@
         module.exports = require("http");;
 
         /***/
-}),
+      }),
 
 /***/ 211:
 /***/ ((module) => {
@@ -5974,7 +5973,7 @@
         module.exports = require("https");;
 
         /***/
-}),
+      }),
 
 /***/ 631:
 /***/ ((module) => {
@@ -5983,7 +5982,7 @@
         module.exports = require("net");;
 
         /***/
-}),
+      }),
 
 /***/ 87:
 /***/ ((module) => {
@@ -5992,7 +5991,7 @@
         module.exports = require("os");;
 
         /***/
-}),
+      }),
 
 /***/ 622:
 /***/ ((module) => {
@@ -6001,7 +6000,7 @@
         module.exports = require("path");;
 
         /***/
-}),
+      }),
 
 /***/ 413:
 /***/ ((module) => {
@@ -6010,7 +6009,7 @@
         module.exports = require("stream");;
 
         /***/
-}),
+      }),
 
 /***/ 16:
 /***/ ((module) => {
@@ -6019,7 +6018,7 @@
         module.exports = require("tls");;
 
         /***/
-}),
+      }),
 
 /***/ 835:
 /***/ ((module) => {
@@ -6028,7 +6027,7 @@
         module.exports = require("url");;
 
         /***/
-}),
+      }),
 
 /***/ 669:
 /***/ ((module) => {
@@ -6037,7 +6036,7 @@
         module.exports = require("util");;
 
         /***/
-}),
+      }),
 
 /***/ 761:
 /***/ ((module) => {
@@ -6046,10 +6045,10 @@
         module.exports = require("zlib");;
 
         /***/
-})
+      })
 
     /******/
-});
+  });
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -6061,14 +6060,14 @@
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;
       /******/
-}
+    }
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
 /******/ 			// no module.id needed
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
       /******/
-};
+    };
 /******/
 /******/ 		// Execute the module function
 /******/ 		var threw = true;
@@ -6076,15 +6075,15 @@
 /******/ 			__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nccwpck_require__);
 /******/ 			threw = false;
       /******/
-} finally {
+    } finally {
 /******/ 			if (threw) delete __webpack_module_cache__[moduleId];
       /******/
-}
+    }
 /******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
     /******/
-}
+  }
 /******/
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat */
@@ -6128,6 +6127,7 @@
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${process.env.NOTION_BOT_SECRET_KEY}`,
+          "Notion-Version": "2021-05-13",
         },
         body: JSON.stringify({
           properties: {

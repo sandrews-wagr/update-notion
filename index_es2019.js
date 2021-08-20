@@ -33,6 +33,7 @@ if (urlFound) {
         headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${process.env.NOTION_BOT_SECRET_KEY}`,
+            "Notion-Version": "2021-05-13",
         },
         body: JSON.stringify({
             properties: {
@@ -48,22 +49,22 @@ if (urlFound) {
         }),
     })
         .then((res) => {
-        if (!res.ok) {
-            res
-                .json()
-                .then((json) => {
-                core.setFailed(json);
-            })
-                .catch(() => core.setFailed("Error while parsing Notion response"));
-        }
-        if (!status) {
-            core.info(`The status ${github.context.payload.action} is not mapped with a value in the action definition. Hence, the task update body does not contain a status update`);
-        }
-        core.info("Notion task updated!");
-    })
+            if (!res.ok) {
+                res
+                    .json()
+                    .then((json) => {
+                        core.setFailed(json);
+                    })
+                    .catch(() => core.setFailed("Error while parsing Notion response"));
+            }
+            if (!status) {
+                core.info(`The status ${github.context.payload.action} is not mapped with a value in the action definition. Hence, the task update body does not contain a status update`);
+            }
+            core.info("Notion task updated!");
+        })
         .catch((error) => {
-        core.setFailed(error);
-    });
+            core.setFailed(error);
+        });
 }
 else {
     core.warning("No notion task found in the PR body.");
