@@ -28,7 +28,7 @@ const status = core.getInput(github.context.payload.action, {
 
 const githubUrlProperty =
   core.getInput("github-url-property-name", { required: false }) ||
-  "Github Url";
+  "Pull Request";
 const statusProperty =
   core.getInput("status-property-name", { required: false }) || "Status";
 if (urlFound) {
